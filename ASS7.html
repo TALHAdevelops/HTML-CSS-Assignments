@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7</title>
+</head>
+<body>
+    <h1>Chapter # 7 - Forms</h1>
+    <form action="submit">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="name">
+            <br><br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label for="source">How do you hear about us?</label>
+            <select name="source" id="sourcenames">
+                <option value="Google">Google</option>
+                <option value="Linkedin">Linkedin</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Twitter">Twitter</option>
+            </select>
+            <br><br>
+            <label for="askvisit">Would you visit again?</label>
+            <br>
+            <input type="radio" name="ans" id="Yes">Yes
+            <input type="radio" name="ans" id="No">No
+            <input type="radio" name="ans" id="May be">May be
+
+            <br>
+            <label for="comments">Comments</label>
+            <br>
+            <textarea name="comments" id="comments" cols="40" rows="5"></textarea>
+<br>
+
+<input type="checkbox" name="emailcheck" id="emailcheck">
+<label for="emailcheck">Sign me up for email updates</label>
+<br>
+<button type="submit">Submit Review</button>
+        </fieldset>
+
+    </form>
+</body>
+</html>
